@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap');
+
+body {
+  background-color: #f0f0f0;
+  color: #333;
+  font-family: "Onest", sans-serif;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/*Header white mode*/
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  width: 90%;
+  margin: 0 auto;
+}
+
+header section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 3%;
+}
+
+header section img{
+  width: 100%;
+}
+
+header nav {
+  display: flex;
+  margin-left: 75%;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+header nav a {
+  text-decoration: none;
+  color: #333;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.3s;
+}
+
+button {
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #444;
+  color: #fff;
+}
+
+/*Body white mode*/
+
+.content{
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  width: 40%;
+  margin: 5% auto;
+}
+
+.about h1{
+  display: flex;
+  align-items: center;
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 0px;
+}
+
+.badge {
+  background-color: #007bff;
+  color: white;
+  padding: 0.2em 0.5em;
+  font-size: 1rem;
+  border-radius: 20px;
+  margin: 2%;
+}
+
+.front-text{
+  color: rgb(234 179 8);
+  transition: background-color 0.3s;
+}
+
+.about{
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+.star1{
+  position: absolute;
+  margin-left: 23%;
+  margin-top: 30%;
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(95%) contrast(100%);
+  transition: filter 0.3s;
+}
+
+.star2{
+  position: absolute;
+  margin-left: 71%;
+  margin-top: 7%;
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(95%) contrast(100%);
+  transition: filter 0.3s;
+}
+
+.title-proyectos{
+  width: 69%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 10rem;
+  margin-bottom: 50px;
+}
+
+.title-proyectos img{
+  width: 40px;
+  transition: filter 0.3s;
+}
+
+.proyectos{
+  width: 50%;
+  display: flex;
+  gap: 1rem;
+  margin: 1rem auto;
+}
+
+.timeline {
+  position: relative;
+  padding: 0;
+  list-style: none;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 50px;
+  top: 0;
+  bottom: 0;
+  width: 4px;
+  background: #007bff; 
+}
+
+.timeline-item {
+  position: relative;
+  margin: 2rem 0;
+  padding-left: 100px;
+}
+
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  left: 40px;
+  top: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #007bff; 
+}
+
+.timeline-content {
+  padding: 1rem;
+  background: #f0f0f0;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.timeline-content h3 {
+  margin-top: 0;
+}
+
+.proyects {
+  width: 49%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 5rem;
+}
+
+.proyects img{
+  width: 40px;
+  transition: filter 0.3s;
+}
+
+.proyectos-personales {
+  width: 60%;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+.proyecto {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.proyecto-img {
+  width: 30%;
+  height: auto;
+  margin-right: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.proyecto-info {
+  flex: 1;
+}
+
+.proyecto-info h3 {
+  margin-top: 0;
+  font-size: 2rem;
+  margin-bottom: 8px;
+}
+
+.techs {
+  width: 64px;
+  color: #fff;
+  display: flex;
+  background-color: rgb(87, 99, 163);
+  border-radius: 999px;
+  font-size: 0.75rem;
+  gap: 0.5rem;
+  padding: 5px 6px;
+}
+
+.techs img{
+  width: 14px;
+  transition: filter 0.3s;
+}
+
+.proyecto-buttons {
+  margin-top: 2rem;
+}
+
+.proyecto-buttons .btn {
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+  width: 70px; 
+  padding: 0.5rem 1rem; 
+  gap: 10px;
+  margin-right: 1rem;
+  background-color: rgb(243 244 246);
+  color: #212121; 
+  text-decoration: none;
+  border: 1px solid rgb(209 213 219);
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+.proyecto-buttons .btn:hover {
+  background-color: rgb(209 213 219);
+}
+
+.tags {
+  width: 64px;
+  display: flex;
+  font-size: 0.75rem;
+  gap: 2rem;
+  padding: 5px 6px;
+}
+
+.tags span {
+  display: flex;
+  gap: 0.5rem;
+  
+  padding: 5px 6px;
+  border-radius: 999px;
+}
+
+.tags img{
+  width: 14px;
+  transition: filter 0.3s;
+}
+
+.html{
+  background-color: #ec8b61;
+  color: #fff;
+}
+
+.css{
+  background-color: #2965f1;
+  color: #fff;
+}
+
+.js{
+  background-color: #d3cda0;
+  color: #212121;
+}
+
+.aboutme {
+  width: 49%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 5rem;
+}
+
+.aboutme img{
+  width: 40px;
+  transition: filter 0.3s;
+}
+
+.about-box{
+  width: 40%;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 2rem;
+  margin: 1rem 20%;
+}
+
+.photo-container {
+  width: 60%;
+  margin-left: 2rem;
+  transform: rotate(-5deg);
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.my-photo {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/*Dark mode*/
+
+body.dark-mode {
+  background-color: #212121;
+  color: #f0f0f0;
+}
+
+button.dark-mode {
+  background-color: #fff;
+  color: #444;
+}
+
+body.dark-mode header section img {
+  content: url('../resources/githubdark.png');
+}
+
+body.dark-mode header nav a {
+  color: #fff;
+}
+
+body.dark-mode .front-text{
+  color: rgb(254 240 138);
+}
+
+body.dark-mode .title-proyectos img{
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(95%) contrast(100%);
+}
+
+body.dark-mode .star1{
+  filter: none;
+}
+
+body.dark-mode .star2{
+  filter: none;
+}
+
+body.dark-mode .timeline-content {
+  background:#282c34;
+
+}
+
+body.dark-mode .proyects img{
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(95%) contrast(100%);
+}
+
+body.dark-mode .proyecto-buttons .btn {
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(95%) contrast(100%);
+}
+
+body.dark-mode .aboutme img{
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(95%) contrast(100%);
+}

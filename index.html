@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <section class="dark_mode">
+            <a href="https://github.com/Larp-Thon" target="_blank">
+                <img src="resources/githubwhite.png" alt="git-white">
+            </a>
+        </section>
+        <nav>
+            <a href="#proyectosHeader">Projects</a>
+            <a href="#about">About</a>
+            <a href="mailto:retrox8yt@gmail.com">Contact</a>
+        </nav>
+        <button id="toggle-dark-mode" title=""><i class="fas fa-moon"></i></button>
+    </header>
+    <section class="stars">
+        <img src="resources/star-2.svg" alt="star" class="star1">
+        <img src="resources/star-2.svg" alt="star" class="star2">
+    </section>
+    <section class="content">
+        <div class="about">
+            <h1>Hola, soy Junior <span class="badge">Disponible para trabajar</span></h1>
+            <p>Soy un desarrollador apasionado por crear soluciones web innovadoras y eficientes de Bogotá, Colombia. Con una sólida formación en desarrollo <strong class="front-text">front-end</strong> y <strong class="front-text">back-end</strong>, me especializo en la creación de aplicaciones web que no solo son funcionales, sino también visualmente atractivas y fáciles de usar.</p>
+        </div>
+    </section>
+    <section class="title-proyectos">
+        <img src="resources/terminal.svg" alt="terminal">
+        <h2>Experiencia laboral</h2>
+    </section>
+    <section class="proyectos">
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3>2024</h3>
+                    <p>Líder de grupo en el proyecto "Detector de humedad en Raspberry Pi 4</p>
+                    <p>reflejado en Web con sugerencia en I.A".</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3>2024</h3>
+                    <p>Programador front-end y responsable de componentes y sus utilidades</p>
+                    <p>con ThingSpeak como base de datos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="proyects" id="proyectosHeader">
+        <img src="resources/python.svg" alt="terminal">
+        <h2>Proyectos</h2>
+    </section>
+    <section class="proyectos-personales">
+        <div class="proyecto">
+            <img src="resources/preview.png" alt="Project 1 Preview" class="proyecto-img">
+            <div class="proyecto-info">
+                <h3>Descargador de Videos en Youtube</h3>
+                <span class="techs">
+                    <img src="resources/pyLogo.svg" alt="Python">
+                    Python
+                </span>
+                <p>Una web hecha en Streamlit para ingresar un URL de Youtube y a continuación descargar el video a cualquier resolución o cualquier formato, hecho todo el Python.</p>
+                <div class="proyecto-buttons">
+                    <a href="https://github.com/Larp-Thon/yt-downloader/tree/master" target="_blank" class="btn">
+                        <img src="resources/github.svg" alt="hub">
+                        Code
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="proyecto">
+            <img src="resources/portfolio.png" alt="Project 2 Preview" class="proyecto-img">
+            <div class="proyecto-info">
+                <h3>Portfolio Web</h3>
+                <section class="tags">
+                    <span class="html">
+                        <img src="resources/html.svg" alt="html">
+                        HTML
+                    </span>
+                    <span class="css">
+                        <img src="resources/css.svg" alt="css">
+                        CSS
+                    </span>
+                    <span class="js">
+                        <img src="resources/js.svg" alt="js">
+                        JavaScript
+                    </span>
+                </section>
+                <p>Mi propio portfolio hecho en la web con HTML, CSS y JavaScript crudo, haciendo uso de fuentes externas multiples páginas de iconos svg.</p>
+                <div class="proyecto-buttons">
+                    <a href="https://github.com/Larp-Thon/portfolio" target="_blank" class="btn">
+                        <img src="resources/github.svg" alt="hub">
+                        Code
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="aboutme" id="about">
+        <img src="resources/about.svg" alt="terminal">
+        <h2>Sobre mí</h2>
+    </section>
+    <section class="about-box">
+        <div><p>Luis Ruge, <strong class="front-text">Desarrollador web Full Stack</strong></p>
+            <p>Me encanta aprender nuevas tecnologías y trabajar en proyectos desafiantes. Siempre estoy buscando oportunidades para mejorar mis habilidades y aprender algo nuevo.</p>
+            <p>Con bastante experiencia con Python pero en general interesado en Desarrollo Web o I.A.</p>
+        </div>
+        <div class="photo-container">
+            <img src="resources/foto.png" alt="Luis Ruge" class="my-photo">
+        </div>
+    </section>
+    <footer style="background-color: #282c34; color: white; padding: 20px; text-align: center;">
+     <div style="margin-bottom: 10px;">
+            <a href="https://www.linkedin.com/in/luis-ruge-217401339/" style="color: white; text-decoration: none; margin: 0 10px;" target="_blank">LinkedIn</a>
+            <a href="https://github.com/Larp-Thon" style="color: white; text-decoration: none; margin: 0 10px;" target="_blank">GitHub</a>
+            <a href="#" style="color: white; text-decoration: none; margin: 0 10px;" target="_blank">Website</a>
+        </div>
+        <p style="margin: 0;">© 2024 Luis Ruge.</p>
+    </footer>
+</body>
+<script src="js/dark_mode.js"></script>
+</html>

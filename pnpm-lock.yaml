@@ -1,0 +1,22 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      '@fontsource-variable/onest':
+        specifier: ^5.1.0
+        version: 5.1.0
+
+packages:
+
+  '@fontsource-variable/onest@5.1.0':
+    resolution: {integrity: sha512-8jspwmuPWtC2p4gxmjUIQ2JugqCcClFwlD1DEJt+gARgZMm3PI62rYivoKVUDB3Q6hdQxeL5wdzjxCOnzTU5BA==}
+
+snapshots:
+
+  '@fontsource-variable/onest@5.1.0': {}
